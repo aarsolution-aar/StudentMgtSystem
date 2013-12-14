@@ -96,26 +96,12 @@ uiperformance.keepOriginals = false
 
 uiperformance.bundles = [
         [type: 'js',
-                name: 'matIndexJs',
-                files: ['recommender',
-                        'jquery.validate',
-                        'jquery.scrollTo-1.4.2-min',
-                        'jquery.fancybox.min',
-                        'jquery.qtip.min',
-                        'jquery.raty',
-                        'application',
-                        'jquery.clippy',
-                        'jquery-ui-1.10.2.custom.min'
-                ]
+                name: 'adminJs',
+                files: ['bootstrap-custom', 'bootstrap-datepicker-custom', 'bootstrap-timepicker', 'adminPanel']
         ],
-
         [type: 'css',
-                name: 'matLayoutCss',
-                files: ['styleSprite']
-        ],
-        [type: 'js',
-                name: 'shopCRUDJs',
-                files: ['shopCRUD', 'jquery.clippy']
+                name: 'adminCss',
+                files: ['admin', 'datepicker', 'timepicker']
         ]
 ]
 

@@ -1,0 +1,23 @@
+.rightPanelSearch.searchBox input[type=text]{padding:9px 0 4px 37px;line-height:16px;border:none;height:20px;}
+/*#loginPanel ul li.register,#loginPanel ul li.login{float:left}*/
+#loginPanel .searchBox {float:left}
+.filters{padding-top:15px; }
+#searchProduct .searchBox input[type=text]{padding:4px 0 4px 9px;}
+#searchRecipe .searchBox input[type=text]{padding:3px 0 4px 9px;}
+.arrow-small{margin-top:2px;}
+ .heading .sortActive{display:list-item; float: left;}
+.heading .right{max-width:200px; white-space: nowrap; }
+/*ul#checkout li span.city{margin-left:10px;}*/
+ul#checkout li{float:none;clear: both;}
+ul#checkout li label.label{float:none;clear: both;display:list-item;}
+ul#checkout li .inputbox{padding:4px 5px 0;float: none;clear: both;}
+ul#checkout li .textArea{float: none;}
+ul#productList li .offerProduct{line-height:8px;padding-bottom:3px}
+.fancybox-opened .fancybox-skin{border: 1px solid #d1d1d1;}
+.heart{width:40px}
+.heart a{float: left;}
+.menuDropdown{z-index: 25;}
+ul.dropdownLink li .submit{line-height:12px;padding:2px 5px 6px;}
+span#recipeDetails{width:50px }
+ul#checkoutStep li{width:33%; }
+ul#checkoutStep li a{display:block;}
