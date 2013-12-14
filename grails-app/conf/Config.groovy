@@ -62,6 +62,7 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+        uiperformance.enabled = false
     }
     production {
         grails.logging.jul.usebridge = false
@@ -89,5 +90,33 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+uiperformance.processImages = false
+uiperformance.keepOriginals = false
+
+uiperformance.bundles = [
+        [type: 'js',
+                name: 'matIndexJs',
+                files: ['recommender',
+                        'jquery.validate',
+                        'jquery.scrollTo-1.4.2-min',
+                        'jquery.fancybox.min',
+                        'jquery.qtip.min',
+                        'jquery.raty',
+                        'application',
+                        'jquery.clippy',
+                        'jquery-ui-1.10.2.custom.min'
+                ]
+        ],
+
+        [type: 'css',
+                name: 'matLayoutCss',
+                files: ['styleSprite']
+        ],
+        [type: 'js',
+                name: 'shopCRUDJs',
+                files: ['shopCRUD', 'jquery.clippy']
+        ]
+]
 
 
